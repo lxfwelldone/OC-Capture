@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6AD11724D2E75D00852665 /* LzAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6AD11524D2E75D00852665 /* LzAlbumVC.m */; };
+		CB6AD11824D2E75D00852665 /* LzAlbumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB6AD11624D2E75D00852665 /* LzAlbumVC.xib */; };
+		CBE1C7C524DA91F4000CC0E9 /* LzJsAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE1C7C424DA91F4000CC0E9 /* LzJsAsset.m */; };
+		CBFB778724D7A31C00224D18 /* check_false.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFB778524D7A31C00224D18 /* check_false.png */; };
+		CBFB778824D7A31C00224D18 /* check_true.png in Resources */ = {isa = PBXBuildFile; fileRef = CBFB778624D7A31C00224D18 /* check_true.png */; };
+		CBFB778C24D7ACD500224D18 /* LzVideoPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB778A24D7ACD500224D18 /* LzVideoPreviewVC.m */; };
+		CBFB779524D7EBC300224D18 /* LzPHAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB779424D7EBC300224D18 /* LzPHAsset.m */; };
+		CBFB779824D7F9A500224D18 /* LzImagePreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB779724D7F9A500224D18 /* LzImagePreviewVC.m */; };
+		CBFB9FCF24D41A5100CA2CA0 /* LzAlbumCC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFB9FCD24D41A5100CA2CA0 /* LzAlbumCC.m */; };
 		FD6436DA23BDB35C00DFC6E0 /* LXFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6436D923BDB35C00DFC6E0 /* LXFPlayerView.m */; };
 		FD6436DD23BDB5E700DFC6E0 /* LXFCameraOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6436DC23BDB5E700DFC6E0 /* LXFCameraOperateView.m */; };
 		FD6436E123BDC63F00DFC6E0 /* WXCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6436E023BDC63F00DFC6E0 /* WXCameraController.m */; };
@@ -26,6 +35,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB6AD11424D2E75D00852665 /* LzAlbumVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzAlbumVC.h; sourceTree = "<group>"; };
+		CB6AD11524D2E75D00852665 /* LzAlbumVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzAlbumVC.m; sourceTree = "<group>"; };
+		CB6AD11624D2E75D00852665 /* LzAlbumVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LzAlbumVC.xib; sourceTree = "<group>"; };
+		CBE1C7C324DA91F4000CC0E9 /* LzJsAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzJsAsset.h; sourceTree = "<group>"; };
+		CBE1C7C424DA91F4000CC0E9 /* LzJsAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzJsAsset.m; sourceTree = "<group>"; };
+		CBFB778524D7A31C00224D18 /* check_false.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_false.png; sourceTree = "<group>"; };
+		CBFB778624D7A31C00224D18 /* check_true.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_true.png; sourceTree = "<group>"; };
+		CBFB778924D7ACD500224D18 /* LzVideoPreviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzVideoPreviewVC.h; sourceTree = "<group>"; };
+		CBFB778A24D7ACD500224D18 /* LzVideoPreviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzVideoPreviewVC.m; sourceTree = "<group>"; };
+		CBFB779324D7EBC300224D18 /* LzPHAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzPHAsset.h; sourceTree = "<group>"; };
+		CBFB779424D7EBC300224D18 /* LzPHAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzPHAsset.m; sourceTree = "<group>"; };
+		CBFB779624D7F9A500224D18 /* LzImagePreviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzImagePreviewVC.h; sourceTree = "<group>"; };
+		CBFB779724D7F9A500224D18 /* LzImagePreviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzImagePreviewVC.m; sourceTree = "<group>"; };
+		CBFB9FCC24D41A5100CA2CA0 /* LzAlbumCC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzAlbumCC.h; sourceTree = "<group>"; };
+		CBFB9FCD24D41A5100CA2CA0 /* LzAlbumCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzAlbumCC.m; sourceTree = "<group>"; };
 		FD6436D823BDB35C00DFC6E0 /* LXFPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFPlayerView.h; sourceTree = "<group>"; };
 		FD6436D923BDB35C00DFC6E0 /* LXFPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFPlayerView.m; sourceTree = "<group>"; };
 		FD6436DB23BDB5E700DFC6E0 /* LXFCameraOperateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFCameraOperateView.h; sourceTree = "<group>"; };
@@ -65,9 +89,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB6AD11324D2E73000852665 /* LzAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				CB6AD11424D2E75D00852665 /* LzAlbumVC.h */,
+				CB6AD11524D2E75D00852665 /* LzAlbumVC.m */,
+				CB6AD11624D2E75D00852665 /* LzAlbumVC.xib */,
+				CBFB9FCC24D41A5100CA2CA0 /* LzAlbumCC.h */,
+				CBFB9FCD24D41A5100CA2CA0 /* LzAlbumCC.m */,
+				CBFB779624D7F9A500224D18 /* LzImagePreviewVC.h */,
+				CBFB779724D7F9A500224D18 /* LzImagePreviewVC.m */,
+				CBFB778924D7ACD500224D18 /* LzVideoPreviewVC.h */,
+				CBFB778A24D7ACD500224D18 /* LzVideoPreviewVC.m */,
+				CBFB779324D7EBC300224D18 /* LzPHAsset.h */,
+				CBFB779424D7EBC300224D18 /* LzPHAsset.m */,
+			);
+			path = LzAlbum;
+			sourceTree = "<group>";
+		};
 		FD6436DE23BDBC7200DFC6E0 /* LXFCamera */ = {
 			isa = PBXGroup;
 			children = (
+				FD7180C823BA1F7B00EBE265 /* arrow_white_down.png */,
+				FD7180C523BA1F7B00EBE265 /* camera_exchange.png */,
+				FD7180C723BA1F7B00EBE265 /* camera_redo.png */,
+				FD6436E223BDEC7B00DFC6E0 /* camera_use.png */,
+				FD6436DF23BDC63F00DFC6E0 /* WXCameraController.h */,
+				FD6436E023BDC63F00DFC6E0 /* WXCameraController.m */,
+				FD829D3923B9CC410066BD42 /* LXFCameraManager.h */,
+				FD829D3A23B9CC410066BD42 /* LXFCameraManager.m */,
+				FD829D3623B987280066BD42 /* CaptureView.h */,
+				FD829D3723B987280066BD42 /* CaptureView.m */,
+				FD6436D823BDB35C00DFC6E0 /* LXFPlayerView.h */,
+				FD6436D923BDB35C00DFC6E0 /* LXFPlayerView.m */,
+				FD6436DB23BDB5E700DFC6E0 /* LXFCameraOperateView.h */,
+				FD6436DC23BDB5E700DFC6E0 /* LXFCameraOperateView.m */,
 			);
 			path = LXFCamera;
 			sourceTree = "<group>";
@@ -91,27 +147,18 @@
 		FD829D1C23B982F90066BD42 /* CaptureView */ = {
 			isa = PBXGroup;
 			children = (
-				FD7180C823BA1F7B00EBE265 /* arrow_white_down.png */,
-				FD7180C523BA1F7B00EBE265 /* camera_exchange.png */,
-				FD7180C723BA1F7B00EBE265 /* camera_redo.png */,
-				FD6436E223BDEC7B00DFC6E0 /* camera_use.png */,
-				FD829D1D23B982F90066BD42 /* AppDelegate.h */,
-				FD829D1E23B982F90066BD42 /* AppDelegate.m */,
-				FD829D2023B982F90066BD42 /* SceneDelegate.h */,
-				FD829D2123B982F90066BD42 /* SceneDelegate.m */,
-				FD6436DF23BDC63F00DFC6E0 /* WXCameraController.h */,
-				FD6436E023BDC63F00DFC6E0 /* WXCameraController.m */,
-				FD829D3923B9CC410066BD42 /* LXFCameraManager.h */,
-				FD829D3A23B9CC410066BD42 /* LXFCameraManager.m */,
-				FD829D3623B987280066BD42 /* CaptureView.h */,
-				FD829D3723B987280066BD42 /* CaptureView.m */,
-				FD6436D823BDB35C00DFC6E0 /* LXFPlayerView.h */,
-				FD6436D923BDB35C00DFC6E0 /* LXFPlayerView.m */,
-				FD6436DB23BDB5E700DFC6E0 /* LXFCameraOperateView.h */,
-				FD6436DC23BDB5E700DFC6E0 /* LXFCameraOperateView.m */,
+				CB6AD11324D2E73000852665 /* LzAlbum */,
 				FD6436DE23BDBC7200DFC6E0 /* LXFCamera */,
 				FD829D2323B982F90066BD42 /* ViewController.h */,
 				FD829D2423B982F90066BD42 /* ViewController.m */,
+				CBE1C7C324DA91F4000CC0E9 /* LzJsAsset.h */,
+				CBE1C7C424DA91F4000CC0E9 /* LzJsAsset.m */,
+				FD829D1D23B982F90066BD42 /* AppDelegate.h */,
+				FD829D1E23B982F90066BD42 /* AppDelegate.m */,
+				CBFB778524D7A31C00224D18 /* check_false.png */,
+				CBFB778624D7A31C00224D18 /* check_true.png */,
+				FD829D2023B982F90066BD42 /* SceneDelegate.h */,
+				FD829D2123B982F90066BD42 /* SceneDelegate.m */,
 				FD829D2623B982F90066BD42 /* Main.storyboard */,
 				FD829D2923B982FD0066BD42 /* Assets.xcassets */,
 				FD829D2B23B982FD0066BD42 /* LaunchScreen.storyboard */,
@@ -180,10 +227,13 @@
 			files = (
 				FD7180CB23BA1F7B00EBE265 /* camera_redo.png in Resources */,
 				FD829D2D23B982FD0066BD42 /* LaunchScreen.storyboard in Resources */,
+				CB6AD11824D2E75D00852665 /* LzAlbumVC.xib in Resources */,
 				FD6436E323BDEC7B00DFC6E0 /* camera_use.png in Resources */,
 				FD7180C923BA1F7B00EBE265 /* camera_exchange.png in Resources */,
 				FD7180CC23BA1F7B00EBE265 /* arrow_white_down.png in Resources */,
 				FD829D2A23B982FD0066BD42 /* Assets.xcassets in Resources */,
+				CBFB778724D7A31C00224D18 /* check_false.png in Resources */,
+				CBFB778824D7A31C00224D18 /* check_true.png in Resources */,
 				FD829D2823B982F90066BD42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,12 +246,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD6436DA23BDB35C00DFC6E0 /* LXFPlayerView.m in Sources */,
+				CBFB779824D7F9A500224D18 /* LzImagePreviewVC.m in Sources */,
 				FD6436E123BDC63F00DFC6E0 /* WXCameraController.m in Sources */,
+				CBFB9FCF24D41A5100CA2CA0 /* LzAlbumCC.m in Sources */,
 				FD829D2523B982F90066BD42 /* ViewController.m in Sources */,
+				CBE1C7C524DA91F4000CC0E9 /* LzJsAsset.m in Sources */,
+				CBFB779524D7EBC300224D18 /* LzPHAsset.m in Sources */,
 				FD829D1F23B982F90066BD42 /* AppDelegate.m in Sources */,
+				CB6AD11724D2E75D00852665 /* LzAlbumVC.m in Sources */,
 				FD829D3823B987280066BD42 /* CaptureView.m in Sources */,
 				FD829D3023B982FD0066BD42 /* main.m in Sources */,
 				FD829D3B23B9CC410066BD42 /* LXFCameraManager.m in Sources */,
+				CBFB778C24D7ACD500224D18 /* LzVideoPreviewVC.m in Sources */,
 				FD829D2223B982F90066BD42 /* SceneDelegate.m in Sources */,
 				FD6436DD23BDB5E700DFC6E0 /* LXFCameraOperateView.m in Sources */,
 			);
@@ -345,6 +401,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7674N8JF99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = CaptureView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7674N8JF99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = CaptureView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

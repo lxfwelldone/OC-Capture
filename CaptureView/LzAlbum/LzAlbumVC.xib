@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LzAlbumVC">
+            <connections>
+                <outlet property="btnComplete" destination="dJP-CF-Dm4" id="YKB-yo-sDV"/>
+                <outlet property="btnCompleteW" destination="KGg-tq-Hkq" id="Czk-vl-jNR"/>
+                <outlet property="mCollectionView" destination="PRa-99-bgd" id="gds-dz-mkq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VR-hg-Nxx" userLabel="top">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1W-Mh-cYi" userLabel="btnClose">
+                            <rect key="frame" x="18" y="21" width="21" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="21" id="2cB-g0-2MO"/>
+                                <constraint firstAttribute="height" constant="22" id="Jiy-fv-keY"/>
+                            </constraints>
+                            <state key="normal" image="arrowshape.turn.up.left" catalog="system"/>
+                            <connections>
+                                <action selector="back:" destination="-1" eventType="touchUpInside" id="lwl-bp-TwR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJP-CF-Dm4" userLabel="btnComplete">
+                            <rect key="frame" x="255" y="17" width="50" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="KGg-tq-Hkq"/>
+                                <constraint firstAttribute="height" constant="30" id="u4z-UF-CoN"/>
+                            </constraints>
+                            <state key="normal" title="完成">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="complete:" destination="-1" eventType="touchUpInside" id="1ey-oI-0iM"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="图片和视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gsa-gE-vfv">
+                            <rect key="frame" x="116.5" y="21.5" width="87" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="9AV-c7-fQo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="gsa-gE-vfv" firstAttribute="centerX" secondItem="6VR-hg-Nxx" secondAttribute="centerX" id="UxT-PV-k86"/>
+                        <constraint firstAttribute="height" constant="64" id="W9Y-CF-qVx"/>
+                        <constraint firstAttribute="trailing" secondItem="dJP-CF-Dm4" secondAttribute="trailing" constant="15" id="WjG-Lg-4Il"/>
+                        <constraint firstItem="dJP-CF-Dm4" firstAttribute="centerY" secondItem="6VR-hg-Nxx" secondAttribute="centerY" id="YOu-ns-iUt"/>
+                        <constraint firstItem="k1W-Mh-cYi" firstAttribute="centerY" secondItem="6VR-hg-Nxx" secondAttribute="centerY" id="gaV-7g-QNv"/>
+                        <constraint firstItem="k1W-Mh-cYi" firstAttribute="leading" secondItem="6VR-hg-Nxx" secondAttribute="leading" constant="18" id="goO-DK-i5s"/>
+                        <constraint firstItem="gsa-gE-vfv" firstAttribute="centerY" secondItem="6VR-hg-Nxx" secondAttribute="centerY" id="m3B-1N-ga8"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PRa-99-bgd">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YIz-Qp-Nhv">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vNj-Mc-GCf"/>
+                        <outlet property="delegate" destination="-1" id="IOK-L2-tS7"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PRa-99-bgd" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="1Mc-rA-nQu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6VR-hg-Nxx" secondAttribute="trailing" id="34o-fO-U4i"/>
+                <constraint firstItem="PRa-99-bgd" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="N2X-yY-X7y"/>
+                <constraint firstItem="PRa-99-bgd" firstAttribute="top" secondItem="6VR-hg-Nxx" secondAttribute="bottom" id="Oco-nt-Ntn"/>
+                <constraint firstItem="6VR-hg-Nxx" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="UIJ-le-kaE"/>
+                <constraint firstItem="PRa-99-bgd" firstAttribute="bottom" secondItem="Q5M-cg-NOt" secondAttribute="bottom" id="n1U-HN-VBv"/>
+                <constraint firstItem="6VR-hg-Nxx" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="zAp-6C-VgI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="231" y="-195"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowshape.turn.up.left" catalog="system" width="64" height="52"/>
+    </resources>
+</document>
